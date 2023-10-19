@@ -1,0 +1,165 @@
+.container {
+    width:100%;
+    height:93vh;
+display: grid;
+font-family: 'poppins-800', sans-serif;
+background: black;
+color:white;
+    
+   
+}
+.contentHome {
+    width:80%;
+    height:100%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.left {
+    width: 80%;
+    height:80%;
+    align-self: center;
+
+    display: grid;
+    grid-template-rows: 45% 20% 15% 20%;
+}
+.right{
+    width:100%;
+    display: grid;
+
+}
+.search {
+    width:100%;
+    display: grid;
+    align-items: flex-end;
+
+}
+.rightImg{
+    width: 90%;
+    height:90%;
+    justify-self: right;
+    align-self: center;
+
+    border-radius: 236px 236px 12px 12px;
+    background-image: url('https://wallpapercave.com/wp/wp3784201.jpg');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+
+.title {
+    width: 100%;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 900;
+
+    
+
+   
+    line-height: 130%;
+}
+.expl {
+    width:100%;
+
+    font-size: 16px;
+    display: grid;
+    align-items: center;
+    letter-spacing:1px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cont {
+    height: 100%;
+  }
+  
+  a {
+    color: inherit;
+  }
+  a:hover {
+    color: #7f8ff4;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+
+    padding: 0;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+  }
+  .btn__primary {
+
+    background: rgb(20, 118, 255);
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 12px 24px;
+  }
+  .btn__primary:hover {
+    background: rgb(0, 63, 151);
+  }
+  .btn__primary:active {
+    background: rgb(20, 118, 255);
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  }
+  .btn__inside {
+    margin-left: -96px;
+  }
+  
+  .form__field {
+    width: 360px;
+    background: transparent;
+    color: #a3a3a3;
+    font: inherit;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 0 rgba(36, 17, 112, 0.705);
+    border: 1px solid rgb(22, 31, 93);
+    outline: 0;
+    padding: 22px 18px;
+  }
+  .details {
+    width:80%;
+    height:100%;
+    align-self: center;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5%;
+    justify-self: center;
+
+}
+.detail {
+    width:100%;
+    height:80%;
+    display: grid;
+    
+    font-family: var(--poppins-font-800);
+    grid-template-rows:55% 45%;
+
+}
+.detail > div:nth-child(1) {
+    display: flex;
+    font-size: 37px;
+    gap:10px;
+
+}
+.detail > div:nth-child(2) {
+    width:80%;
+    font-size: 14px;
+}
+.detail > div:nth-child(1) > div:nth-child(2) {
+    color:orange;
+}
