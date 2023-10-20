@@ -27,10 +27,10 @@
 }
 .title > div:nth-child(1) {
     color:orange;
-    font-size: 23px;
+    font-size: 21px;
 }
 .title > div:nth-child(2) {
-    font-size: 30px;
+    font-size: 29px;
 }
 .nav {
     width: 100%;
@@ -85,18 +85,19 @@
 
 }
 .detailTitle {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 500;
+    justify-content: center;
     display: grid;
     justify-self: center;
-    justify-content: center;
+
     width:100%;
     align-items: center;
 }
 .price {
     max-width: 100%;
 
-    font-size: 33px;
+    font-size: 28px;
     display: grid;
     justify-content: center;
     align-items: center;

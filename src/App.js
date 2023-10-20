@@ -3,6 +3,7 @@ import Navbar from "./files/Navbar";
 import Home from "./files/Home";
 import Residences from "./files/Residences";
 import Values from "./files/Values";
+import Contact from "./files/Contact";
 function App() {
   return (
     <div className={styles.container}>
@@ -13,6 +14,7 @@ function App() {
         <Home />
         <Residences/>
         <Values />
+        <Contact/>
       </div>
     
     </div>

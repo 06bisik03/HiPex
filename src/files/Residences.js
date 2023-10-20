@@ -25,7 +25,7 @@ const Residences = () => {
             pagination={{
               clickable: true,
             }}
-            speed={700}
+            speed={300}
             modules={[Pagination]}
             className={styles.mySwiper}>
             {ResidenceList.map((item, index) => {
