@@ -2,7 +2,7 @@
     width:100%;
     height:60vh;
 
-    margin-top: 5%;
+    margin-top: 10%;
     color:white;
     display: grid;
 }
@@ -96,8 +96,9 @@
 }
 .price {
     max-width: 100%;
-
+    color:rgb(20, 118, 255);
     font-size: 28px;
+    letter-spacing: 4px;
     display: grid;
     justify-content: center;
     align-items: center;

@@ -1,5 +1,5 @@
 import styles from "./Residences.module.css";
-import React, { useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -33,7 +33,7 @@ const Residences = () => {
                 <SwiperSlide key={index}>
                   <div className={styles.swip}>
                     <div className={styles.carouselImg}>
-                      <img src={`/images/house${index + 1}.jpg`} />
+                      <img alt="x"src={`/images/house${index + 1}.jpg`} />
                     </div>
                     <div className={styles.carouselDetails}>
                       <div className={styles.detailTitle}>

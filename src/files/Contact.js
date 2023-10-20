@@ -40,22 +40,22 @@ export default Contact;
 const accordionData = [
   {
     title: "Phone Call",
-    thumbnail: <FontAwesomeIcon style={{color: 'orange'}}icon={faSquarePhone}/>,
+    thumbnail: <FontAwesomeIcon style={{color: 'rgb(20, 118, 255)'}}icon={faSquarePhone}/>,
     content: "+(1)5055170099",
   },
   {
     title: "Chat",
-    thumbnail: <FontAwesomeIcon style={{color: 'orange'}} icon={faComments}/>,
+    thumbnail: <FontAwesomeIcon style={{color: 'rgb(20, 118, 255)'}} icon={faComments}/>,
     content: "+(1)5055170099",
   },
   {
     title: "Video Call",
-    thumbnail: <FontAwesomeIcon  style={{color: 'orange'}} icon={faVideo}/>,
+    thumbnail: <FontAwesomeIcon  style={{color: 'rgb(20, 118, 255)'}} icon={faVideo}/>,
     content: "+(1)5055170099",
   },
   {
     title: "Email",
-    thumbnail: <FontAwesomeIcon style={{color: 'orange'}} icon={faPaperPlane} />,
+    thumbnail: <FontAwesomeIcon style={{color: 'rgb(20, 118, 255)'}} icon={faPaperPlane} />,
     content: "hipex@contact.com",
   },
 ];

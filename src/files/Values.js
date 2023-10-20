@@ -1,20 +1,7 @@
 import styles from "./Values.module.css";
-import { useState } from "react";
+
 
 const Values = () => {
-  const [openAccordionIndex, setOpenAccordionIndex] = useState(null);
-
-  const toggleAccordion = (index) => {
-    if (openAccordionIndex === index) {
-      setOpenAccordionIndex(null);
-    } else {
-      setOpenAccordionIndex(index);
-    }
-  };
-
-  const isAccordionOpen = (index) => {
-    return openAccordionIndex === index;
-  };
 
   return (
     <div className={styles.container}>
