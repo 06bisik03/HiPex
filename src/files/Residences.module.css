@@ -3,6 +3,7 @@
     height:60vh;
 
     margin-top: 5%;
+    color:white;
     display: grid;
 }
 .content {
@@ -26,10 +27,10 @@
 }
 .title > div:nth-child(1) {
     color:orange;
-    font-size: 19px;
+    font-size: 23px;
 }
 .title > div:nth-child(2) {
-    font-size: 24px;
+    font-size: 30px;
 }
 .nav {
     width: 100%;
@@ -52,6 +53,8 @@
 .swip {
     width:100%;
     height:100%;
+    background-color: rgb(37, 37, 37);
+    border-radius: 0 15px 15px 0;
 
 }
 .carouselImg {
@@ -71,6 +74,7 @@
     height:100%;
     justify-self: center;
     display: grid;
+   
 
     grid-template-rows: 20% 20% 45% 15% ;
 }
@@ -81,10 +85,11 @@
 
 }
 .detailTitle {
-    font-size: 27px;
+    font-size: 34px;
     font-weight: 500;
     display: grid;
     justify-self: center;
+    justify-content: center;
     width:100%;
     align-items: center;
 }
@@ -100,16 +105,17 @@
     width: 100%;
 
     display: grid;
-    grid-template-rows: 70% 30%;
+ 
 
 }
 .explF {
     width:100%;
     height:100%;
-    
+
     display: grid;
     grid-template-rows: repeat(3,1fr) ;
     grid-template-columns: repeat(2,1fr);
+
 }
 .explF > div {
     width:100%;
@@ -122,20 +128,23 @@
 .explS {
     width:100%;
     height:100%;
+    display: flex;
+    justify-content: center;
 
 }
 .btn {
     width:100%;
     display: grid;
     justify-items: right;
-    align-items: flex-end;
+    align-items: center;
 
 }
 .btn button {
     cursor: pointer;
     width: 30%;
+    border-radius: 10px;
     height: 75%;
-    border: 2px solid #17C3B2;
+    border: 2px solid orange;
     position: relative;
     overflow: hidden;
     background-color: transparent;
@@ -145,7 +154,7 @@
     transition: .3s;
     z-index: 1;
     font-family: inherit;
-    color: #17C3B2;
+    color: orange;
    }
    
    .btn button::before {
@@ -156,7 +165,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
-    background: #17C3B2;
+    background: orange;
     transition: .5s ease;
     display: block;
     z-index: -1;
@@ -167,6 +176,6 @@
    }
    
    .btn button:hover {
-    color: #111;
+    color: rgb(20, 118, 255);
    }
    

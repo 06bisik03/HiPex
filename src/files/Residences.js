@@ -18,9 +18,14 @@ const Residences = () => {
           <Swiper
             slidesPerView={"auto"}
             spaceBetween={30}
+            style={{"--swiper-pagination-color": "orange",
+            "--swiper-pagination-bullet-size": "10px",
+            "--swiper-pagination-bullet-inactive-color": "rgba(255, 255, 255, 0.889)"
+           }}
             pagination={{
               clickable: true,
             }}
+            speed={700}
             modules={[Pagination]}
             className={styles.mySwiper}>
             {ResidenceList.map((item, index) => {
@@ -46,13 +51,10 @@ const Residences = () => {
                           <div>Floors: {item.residence_floors}</div>
                           <div>Parking: {item.residence_parking}</div>
                         </div>
-                        <div className={styles.explS}>
-                          Residence Address: <br />
-                          {item.residence_address}
-                        </div>
+                       
                       </div>
                       <div className={styles.btn}>
-                        <button> Hover me</button>
+                        <button>Details</button>
                       </div>
                     </div>
                   </div>
