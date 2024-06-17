@@ -1,0 +1,183 @@
+.container {
+    width:100%;
+    height:60vh;
+
+    margin-top: 10%;
+    color:white;
+    display: grid;
+}
+.content {
+    width:80%;
+    height:100%;
+    justify-self: center;
+
+    display: grid;
+
+    grid-template-rows: 10% 90%;
+}
+.title {
+    width:100%;
+    font-weight: 500;
+
+    height:100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+
+}
+.title > div:nth-child(1) {
+    color:orange;
+    font-size: 21px;
+}
+.title > div:nth-child(2) {
+    font-size: 29px;
+}
+.nav {
+    width: 100%;
+    height:100%;
+
+}
+.residences {
+    margin-top: 20px;
+    width:100%;
+    height:100%;
+
+
+}
+.mySwiper {
+    height:100%;
+    width:100%;
+
+
+}
+.swip {
+    width:100%;
+    height:100%;
+    background-color: rgb(37, 37, 37);
+    border-radius: 0 15px 15px 0;
+
+}
+.carouselImg {
+    width:100%;
+    height:100%;
+    position: relative;
+
+}
+.carouselImg img{
+    object-fit: cover;
+    max-width: 100%;
+    height:100%;
+    position:absolute;
+}
+.carouselDetails {
+    width:80%;
+    height:100%;
+    justify-self: center;
+    display: grid;
+   
+
+    grid-template-rows: 20% 20% 45% 15% ;
+}
+.swip {
+    width:100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.detailTitle {
+    font-size: 28px;
+    font-weight: 500;
+    justify-content: center;
+    display: grid;
+    justify-self: center;
+
+    width:100%;
+    align-items: center;
+}
+.price {
+    max-width: 100%;
+    color:rgb(20, 118, 255);
+    font-size: 28px;
+    letter-spacing: 4px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.expl {
+    width: 100%;
+
+    display: grid;
+ 
+
+}
+.explF {
+    width:100%;
+    height:100%;
+
+    display: grid;
+    grid-template-rows: repeat(3,1fr) ;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.explF > div {
+    width:100%;
+    
+    height:100%;
+    display: flex;
+    align-items: center;
+
+}
+.explS {
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+
+}
+.btn {
+    width:100%;
+    display: grid;
+    justify-items: right;
+    align-items: center;
+
+}
+.btn button {
+    cursor: pointer;
+    width: 30%;
+    border-radius: 10px;
+    height: 75%;
+    border: 2px solid orange;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: orange;
+   }
+   
+   .btn button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: orange;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .btn button:hover::before {
+    width: 105%;
+   }
+   
+   .btn button:hover {
+    color: rgb(20, 118, 255);
+   }
+   

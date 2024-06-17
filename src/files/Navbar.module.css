@@ -1,0 +1,40 @@
+.container {
+    width:100%;
+    height:65px;
+    position: fixed;
+z-index:999999;
+    display: flex;
+    justify-content: center;
+   background: linear-gradient(to bottom right, black,rgb(22, 22, 22));
+    color:white;
+
+}
+.navigation {
+    width:80%;
+    height:100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    
+
+}
+.navElements {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width:100%;
+    color:orange;
+    font-size: 28px;
+}
+.navElements > div {
+    font-size: 16px;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+.navElements > div:hover {
+    transform: scale(1.2);
+    letter-spacing: 2px;
+    color:rgb(20, 118, 255);
+}

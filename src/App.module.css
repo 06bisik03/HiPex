@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+
+.container {
+  width:100%;
+  margin:0;
+  background: black;
+  padding: 0;
+  height:483vh;
+  font-family: 'Lato', sans-serif;
+  display: grid;
+  grid-template-rows: 65px auto ;
+}
